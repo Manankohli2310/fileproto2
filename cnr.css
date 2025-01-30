@@ -677,14 +677,14 @@ input[type="file"] {
 
 @media (min-width:500px) and (max-width:600px) {
   .tools-container {
-    margin-bottom: -90px;
+    margin-bottom: -130px;
     position: relative;
-    margin-top: 180px;
+    margin-top: 210px;
     margin-left: 68px;
     transform: translateY(-50%) scale(0.8);
-    
+
   }
-  
+
   .container {
     margin-top: 105px;
     width: 82vw;
@@ -702,19 +702,19 @@ input[type="file"] {
 
 @media (min-width:450px) and (max-width:500px) {
   .tools-container {
-    margin-bottom: -95px;
+    margin-bottom: -155px;
     position: relative;
-    margin-top: 174px;
+    margin-top: 194px;
     margin-left: 58px;
     transform: translateY(-50%) scale(0.76);
-    
+
   }
-  
+
   .container {
     margin-top: 105px;
     width: 80vw;
   }
-  
+
   .image-preview {
     margin-left: 1px;
     min-width: 80vw;
@@ -727,12 +727,12 @@ input[type="file"] {
 
 @media (min-width: 400px) and (max-width:450px) {
   .tools-container {
-    margin-bottom: -95px;
+    margin-bottom: -165px;
     position: relative;
-    margin-top: 164px;
+    margin-top: 190px;
     margin-left: 52px;
     transform: translateY(-50%) scale(0.7);
-    
+
   }
 
   .container {
@@ -753,19 +753,19 @@ input[type="file"] {
 
 @media (min-width:350px) and (max-width:400px) {
   .tools-container {
-    margin-bottom: -130px;
+    margin-bottom: -215px;
     position: relative;
-    margin-top: 135px;
+    margin-top: 155px;
     margin-left: 46px;
     transform: translateY(-50%) scale(0.6);
-    
+
   }
-  
+
   .container {
     margin-top: 105px;
     width: 80vw;
   }
-  
+
   .image-preview {
     margin-left: 1px;
     min-width: 80vw;
@@ -789,14 +789,14 @@ input[type="file"] {
 @media (max-width:350px) and (min-width:320px) {
   .tools-container {
     max-height: 320px;
-    margin-bottom: -170px;
+    margin-bottom: -190px;
     position: relative;
-    margin-top: 135px;
+    margin-top: 145px;
     margin-left: 40px;
     transform: translateY(-50%) scale(0.55);
-    
+
   }
-  
+
   .container {
     margin-top: 86px;
     width: 80vw;
@@ -835,7 +835,7 @@ input[type="file"] {
     max-height: 328px;
     margin-bottom: -206px;
     position: relative;
-    margin-top: 142px;
+    margin-top: 146px;
     margin-left: 35px;
     transform: translateY(-50%) scale(0.54);
 
@@ -845,7 +845,7 @@ input[type="file"] {
     margin-top: 85px;
     width: 80vw;
   }
-  
+
   .image-preview {
     margin-left: 1px;
     min-width: 80vw;
@@ -893,11 +893,11 @@ input[type="file"] {
   .tools-container {
     transform: translateY(-50%) scale(0.8);
   }
-  
+
   .image-preview {
     width: 42%;
   }
-  
+
 }
 
 @media (min-width:890px) and (max-width:930px) {
@@ -905,7 +905,7 @@ input[type="file"] {
     transform: translateY(-50%) scale(0.75);
     right: -2%;
   }
-  
+
   .image-preview {
     margin-left: 35px;
   }
@@ -916,7 +916,7 @@ input[type="file"] {
     transform: translateY(-50%) scale(0.75);
     right: -3%;
   }
-  
+
   .image-preview {
     margin-left: 35px;
     width: 42%;
@@ -939,7 +939,7 @@ input[type="file"] {
   .tools-container {
     right: 0%;
   }
-  
+
   .image-preview {
     margin-left: 35px;
   }
@@ -949,7 +949,7 @@ input[type="file"] {
   .tools-container {
     right: 10%;
   }
-  
+
 }
 
 @media (min-width:1600px) {
@@ -957,28 +957,97 @@ input[type="file"] {
     right: 10%;
     transform: translateY(-50%) scale(1);
   }
-  
-  @media (max-width:660px) {
-    .popup h2 {
-      font-size: 16px;
-    }
-  
+}
+
+
+@media (max-width:660px) {
+  .popup h2 {
+    font-size: 16px;
   }
-  @media (max-width:400px) and (min-width:320px) {
-    .popup {
-      transform: translate(-50%, -50%) scale(0.8);
-    }
+
+}
+
+@media (max-width:400px) and (min-width:320px) {
+  .popup {
+    transform: translate(-50%, -50%) scale(0.8);
   }
-  
-  @media (max-width: 320px) {
-    .popup {
-      transform: translate(-50%, -50%) scale(0.75);
-    }
+}
+
+@media (max-width: 320px) {
+  .popup {
+    transform: translate(-50%, -50%) scale(0.75);
   }
-  
-  @media (max-width: 500px) and (min-width:400px) {
-    .popup {
-      transform: translate(-50%, -50%) scale(0.9);
-    }
+}
+
+@media (max-width: 500px) and (min-width:400px) {
+  .popup {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+}
+
+@media (max-width:600px) {
+  .tools-container {
+    /* margin-bottom: -145px;
+      margin-top: 220px; */
+    max-height: 380px;
+  }
+
+  .tool-button {
+    font-size: 15px;
+  }
+
+  .tools {
+    height: 380px;
+  }
+
+  .resize-button {
+    font-size: 17px;
+    margin-left: 162px;
+    margin-top: 46px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  label {
+    margin-right: 5px;
+    color: #eee;
+    font-size: 16px;
+    font-weight: 300;
+  }
+
+  input[type="number"] {
+    margin-top: 15px;
+    height: 18px;
+    width: 95px;
+  }
+
+  #aspectLock {
+    margin-top: 26px;
+  }
+
+  .compress-button {
+    font-size: 17px;
+    margin-left: 148px;
+    margin-top: 46px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .aspectlabel {
+    margin-left: 155px;
+    color: #eee;
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .tools p {
+    margin-top: 25px;
   }
 }
